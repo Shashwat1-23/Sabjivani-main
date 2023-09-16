@@ -1,0 +1,62 @@
+/* CSS for the About Us page */
+
+.about-us {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.about-header {
+    background-color: #3e8f6d;
+    background-image: url('../images/banner-bg2.jpg');
+    color: #f2f7f5;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 300;
+}
+
+.about-header h1 {
+    font-size: 28px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.mission,
+.vision {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.mission h2,
+.vision h2 {
+    font-size: 24px;
+    color: #3e8f6d;
+}
+
+.mission p,
+.vision p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Adjust image size */
+.mission img,
+.vision img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.about-footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #3e8f6d;
+    color: #fff;
+}

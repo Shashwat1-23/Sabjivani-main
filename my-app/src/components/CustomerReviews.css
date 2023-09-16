@@ -1,0 +1,58 @@
+/* CustomerReviews.css */
+
+.customer-reviews {
+    text-align: center;
+  }
+  
+  .review {
+    display: inline-block;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .review img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .review p {
+    font-size: 15px;
+    color: #777;
+  }
+  
+  .review:hover {
+    transform: scale(1.1);
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination button.active {
+    background-color: #86d89a;
+    color: #fff;
+    border-color: #129a03;
+  }
+  
